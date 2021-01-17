@@ -1,0 +1,178 @@
+.parallax-container {
+    height: 60vh;
+}
+header{
+    background-image: linear-gradient( #ff80ab    ,#edfa5bd2 );
+    height: 32vh;
+    margin-bottom: 5vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.header1{
+    height: 20vh;
+}   
+.logoDiv,.titulo,.iconos{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Redressed', cursive;
+}
+h1{
+    font-size: 90px;
+}
+
+.logo{
+    border: #d500f9;
+    border-style:dashed;
+    border-radius: 60%;
+    height: 18vh;
+    margin-top: 2.5vh;
+}
+nav{
+    padding-left: 5vw;
+}
+header div a{
+    padding-left: 2vw;
+}
+.navHeader a{
+    color: rgba(65, 29, 161, 0.952);
+}
+.nav-wrapper a{
+    font-size: 20px;
+}
+/* SECCION HOME */
+.contenido,.contenido2{
+    background-image: url("../assets/patitas.png");
+    background-repeat:repeat-y;
+    background-size:10%;
+    background-position: left;
+    background-position-x: 2%;
+}
+.contenido1{
+    background-image: url("../assets/patitas.png");
+    background-repeat: repeat-y;
+    background-size:10%;
+    background-position: right;
+    background-position-y: 3%;
+}
+.mapa{
+    margin-bottom: 15vh;
+}
+.patitas{
+    color: rgba(255, 35, 35, 0.836);
+}
+b{
+    height: 12vh;
+    border-bottom: solid purple;
+}
+#seccionHome h2,#seccionVet h2,#seccionJuguetes h2{
+    font-family: cursive;
+    font-size: 45px;
+}
+body{
+    background-image: linear-gradient(rgba(247, 233, 111, 0.89),rgb(250, 162, 177));
+    
+}
+.izquierda{
+    background-image: url("../assets/los-beneficios-de-la-interaccion-entre-dueno-y-mascota-van-en-ambas-direcciones-la-mente-de-las-mascotas-tambien-se-favorece-de-los-lazos-estrechos-con-su-dueno_9e2b9dea_1280x720.jpg");
+    background-size: cover;
+}
+.derecha{
+    background-image: url("../assets/5ec8621710db3.png");
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+/* SECCION TIENDAS*/
+#seccionVet h2,#seccionJuguetes h2{
+    text-shadow:1px 1px;
+}
+.card{
+    background-color: rgb(252, 167, 181);
+}
+.card-tittle p{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#cartaJugueteria, #cartaVeterinaria{
+    padding-left: 2vw;
+}
+.card{
+    width: 20vw;
+    margin: 3vh 1vw;
+    min-height: 500px;
+}
+.card h3{
+    margin: 1.5vh 0;
+}
+.card p{
+    margin: 1vh 0;
+}
+.activator{
+    padding-top: 1vh;   
+}
+.card-content{
+    height: 80px;
+}
+.ultimas{
+    font-size: 18px;
+}
+#seccionVet{
+    background: url("../assets/vete.png");
+    background-repeat: space;
+    background-size: 35%;
+}
+#seccionJuguetes{
+    background: url("../assets/toys.png");
+    background-repeat: space;
+    background-size: 35%;
+    background-position-x:90%;
+}
+/* SECCION CONTACTO */
+#seccionContacto,#seccionCarrito{
+    background-image: url("../assets/patitas.png");
+    background-repeat: cover;
+
+}
+.select-wrapper ul li span,.select-wrapper input {
+    color: purple;
+}
+#seccionContacto .fondo{
+    height: 50vh;
+    background-image: url("../assets/contacto.jpg");
+    background-size: cover;
+    background-position-y: 45%;
+}
+.mapaContacto h5{
+    font-family: cursive;
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+}
+/* SECCION CARRITO */
+#cuerpoTabla tr{
+    border: double black;
+}
+#seccionCarrito table{
+    font-family: cursive;
+    border: double black;
+    margin: 10vh 0;
+    background-color: pink;
+}
+.botonesBorrar{
+    margin-top: 25px;
+}
+.tarjetas{
+    height: 10vh;
+    background-image: url("../assets/tarjetas.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    margin: 2vh 0;
+}
+.divEnviar{
+    margin: 5vh 0;
+}

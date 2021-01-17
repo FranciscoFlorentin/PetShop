@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link rel="icon" href="../assets/icon1.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria Franco</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header>
+      <div class="row header1">
+        <div class="col s3 logoDiv center ">
+          <img class="logo" src="../assets/Logo.png" alt="">
+        </div>
+        <div class=" col s6 titulo">
+          <h1>Franco</h1>
+          <h4>Pet Shop</h4>
+        </div>
+        <div class="navHeader col s3 iconos">
+          <a id="carrito" href="../pags/carritoPag.html" >
+            <i class="small material-icons">shopping_cart</i>
+            <div id="cantidadCarrito" class="center"></div>
+          </a>
+        </div>
+      </div>
+        <nav class="purple lighten-2">
+            <div class="nav-wrapper">
+              <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./veterinariaPag.html">Veterinaria</a></li>
+                <li><a href="./jugueteriaPag.html">Jugueteria</a></li>
+                <li><a href="./contactoPag.html">Contacto</a></li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="seccionCarrito">
+        <div class="container">
+            <table class="centered highlight">
+                <thead>
+                  <tr>
+                      <th>Imagen</th>
+                      <th>Producto</th>
+                      <th>Precio Unitario</th>
+                      <th></th>
+                  </tr>
+                </thead>
+        
+                <tbody id="cuerpoTabla">
+                </tbody>
+            </table>
+            <div class="row center">
+              <a class="waves-effect waves-light btn modal-trigger purple" href="#modal1">Confirmar Compra</a>
+              <div id="modal1" class="modal">
+                <div class="modal-content">
+                  <div class="row">
+                    <h4 class="red lighten-2">Tarjeta de Credito/Debito</h4>
+                    <form class="col s12">
+                      <div class="row">
+                        <div class="tarjetas row s2 ">
+                        </div>
+                        <div class="input-field col s6">
+                          <i class="material-icons prefix">account_circle</i>
+                          <input id="nombreTitular" type="text" class="camposCarrito" required>
+                          <label for="nombreTitular">Nombre del titular</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <i class="material-icons prefix">credit_card</i>
+                          <input id="nroTarjeta" type="number" class="camposCarrito" required>
+                          <label for="nroTarjeta">Número de la tarjeta</label>
+                        </div>
+                        <div class="input-field col s4">
+                          <i class="material-icons prefix">date_range</i>
+                          <input id="mesExp" type="number" class="camposCarrito" required>
+                          <label for="mesExp">Mes de expiración</label>
+                        </div>
+                        <div class="input-field col s4">
+                          <i class="material-icons prefix">date_range</i>
+                          <input id="añoExp" type="number" class="camposCarrito" required>
+                          <label for="añoExp">Año de expiración</label>
+                        </div>
+                        <div class="input-field col s4">
+                          <i class="material-icons prefix">confirmation_number</i>
+                          <input id="codigo" type="number" class="camposCarrito" required>
+                          <label for="codigos">Codigo de seguridad</label>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="modal-footer ">
+                  <a href="#!" class="modal-close waves-effect waves-green btn-flat red lighten-1 white-text">Volver</a>
+                  <a id="botonAceptar" href="#!" class="modal-close waves-effect waves-green btn-flat red lighten-1 white-text">Aceptar</a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col s4 ">
+                <p>FRANCO PET SHOP</p>
+                <img class="logo" src="../assets/Logo.png" alt="">
+            </div>
+            <div class="col s5">
+                <p>Rio de Janeiro 300</p>
+                <p>Caballito, Buenos Aires</p>
+                <p>Tel. 0342-639226</p>
+                <p>Horarios de Atencion:</p>
+                <p>8hs a 12:30hs - 16hs a 19hs</p>
+            </div>
+            <div class="col s3">
+              <h5 class="white-text">Información</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="../index.html">Home</a></li>
+                <li><a class="grey-text text-lighten-3" href="../pags/veterinariaPag.html">Veterinaria</a></li>
+                <li><a class="grey-text text-lighten-3" href="../pags/jugueteriaPag.html">Jugueteria</a></li>
+                <li><a class="grey-text text-lighten-3" href="../pags/contactoPag.html">Contacto</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2020 Copyright 
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="../script/script.js"></script>
+</body>
+</html>
