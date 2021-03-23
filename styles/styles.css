@@ -1,3 +1,4 @@
+
 .parallax-container {
     height: 60vh;
 }
@@ -22,7 +23,7 @@ header{
     font-family: 'Redressed', cursive;
 }
 h1{
-    font-size: 90px;
+    font-size: 6em;
 }
 
 .logo{
@@ -71,7 +72,7 @@ b{
 }
 #seccionHome h2,#seccionVet h2,#seccionJuguetes h2{
     font-family: cursive;
-    font-size: 45px;
+    font-size: 2.8rem;
 }
 body{
     background-image: linear-gradient(rgba(247, 233, 111, 0.89),rgb(250, 162, 177));
@@ -136,7 +137,7 @@ body{
 #seccionContacto,#seccionCarrito{
     background-image: url("../assets/patitas.png");
     background-repeat: cover;
-
+    
 }
 .select-wrapper ul li span,.select-wrapper input {
     color: purple;
@@ -176,3 +177,33 @@ body{
 .divEnviar{
     margin: 5vh 0;
 }
+@media (max-width: 450px) {
+    h1{
+        font-size: 4rem;
+    }
+    .titulo{
+        flex-direction: column;
+    }
+    .titulo h4,h1{
+        margin: 0;
+    }
+    .header1{
+        padding-left: 5vw;
+    }
+    .nav-wrapper a{
+        font-size: 1.2rem;
+    }
+    .contenido2{
+        padding-left: 7vw;
+    }
+    .logo{
+        height: 14vh;
+    }
+    #cartaVeterinaria .card,#cartaJugueteria .card{
+        width: 40vw;
+        height: 65vh;
+    }
+    .input-field{
+        width: 100%!important;
+    }
+} 
